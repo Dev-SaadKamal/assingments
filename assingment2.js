@@ -55,19 +55,19 @@ if (text.toLowerCase().indexOf("hello") !== -1) {
 let word = "JavaScript";
 console.log(word.charAt(4));  
 
-let str = prompt("Enter a word:");
+let stri = prompt("Enter a word:");
 let pos = +prompt("Enter position:");
-alert(str.charAt(pos));
+alert(stri.charAt(pos));
 
 let name = "Ali";
 console.log(name.charAt(10));
 
 // chapter25
-let text = "This is a bad example.";
-console.log(text.replace("bad", "good"));
+let text_ = "This is a bad example.";
+console.log(text_.replace("bad", "good"));
 
-let sentence = "I love JS. JS is great!";
-console.log(sentence.replace(/JS/g, "JavaScript"));
+let sentences = "I love JS. JS is great!";
+console.log(sentences.replace(/JS/g, "JavaScript"));
 
 let message = "Hello, NAME";
 let userName = prompt("Enter your name:");
@@ -78,8 +78,8 @@ console.log(Math.round(2.6));
 console.log(Math.floor(2.6));  
 console.log(Math.ceil(2.6));   
 
-let num = +prompt("Enter a number:");
-console.log(Math.round(num));
+let numb = +prompt("Enter a number:");
+console.log(Math.round(numb));
 
 console.log(Math.floor(-2.9));  
 console.log(Math.ceil(-2.9));  
@@ -87,16 +87,16 @@ console.log(Math.ceil(-2.9));
 // Math.ceil goes up, toward 0 for negatives.     
 
 // chapter 27
-let a = Math.random()*6
-a = Math.ceil(a)
-console.log(a)
+let ab = Math.random()*6
+ab = Math.ceil(ab)
+console.log(ab)
 
 
-let b = Math.random()
-b=Math.round(a)
-console.log(a)
+let bc = Math.random()
+bc=Math.round(ab)
+console.log(ab)
 
-if(b == 1){
+if(bc == 1){
     console.log("Heads")
 }else{
     console.log("Tails")
@@ -106,9 +106,9 @@ let password = Math.round(Math.random() * 9000) + 1000;
 console.log(password);
 
 // chapter 28
-let str = "45.67";
-let num = parseFloat(str);
-console.log(num);
+let strin = "45.67";
+let numbe = parseFloat(strin);
+console.log(numbe);
 
 console.log(parseInt("123px"));  
 
@@ -127,13 +127,13 @@ console.log(Number("10.5"));
 
 // chapter30
 let num_deci = 163.45678;
-console.log(num.toFixed(2));  
+console.log(num_deci.toFixed(2));  
 
 let result = Number("12.999").toFixed(1);
 console.log(result);
 
-let input = +prompt("Enter a decimal:");
-alert(input.toFixed(3));
+let input1 = +prompt("Enter a decimal:");
+alert(input1.toFixed(3));
  
 // chapter31
 let date=new Date()
